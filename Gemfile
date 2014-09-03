@@ -41,7 +41,7 @@ gem 'spring',        group: :development
 gem 'webrick'
 gem 'rack'
 
-gem 'newrelic_rpm'
+gem 'newrelic_rpm', '~> 3.9.2.239'
 
 group :production do
   gem 'pg'
